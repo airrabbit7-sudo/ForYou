@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    background-color:#ffe6ee;
+}
+#countdown {
+    font-size: 100px;
+    font-weight: bold;
+    color: pink;
+    -webkit-text-stroke: 3px #ff4f81;
+    position: relative;
+    z-index: 2;
+}
+.heart {
+    position: fixed;
+    top: -50px;
+    left: 50%;
+    font-size: 15px;
+    animation: fall 10s linear infinite;
+    z-index:  1;
+}
+@keyframes fall {
+    from {
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(110vh);
+    }
+}
