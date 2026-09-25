@@ -16,6 +16,7 @@ body {
     z-index: 2;
     white-space: nowrap;
     width:100%;
+    justify-content: center;
     box-sizing: border-box;
     
 }
