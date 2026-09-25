@@ -1,6 +1,6 @@
 const countdown = document.getElementById("countdown");
 const tickSound = new Audio("tick.mp3");
-tickSound.loop();
+tickSound.loop = true;
 tickSound.play();
 const targetDate = new Date("2026-10-22T00:00:00");
 setInterval(() => {
