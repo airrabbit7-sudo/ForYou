@@ -8,12 +8,14 @@ body {
     background-color:#ffe6ee;
 }
 #countdown {
-    font-size: 100px;
+    font-size: clamp(20px, 7vw, 50px);
     font-weight: bold;
     color: pink;
     -webkit-text-stroke: 3px #ff4f81;
     position: relative;
     z-index: 2;
+    white-space: nowrap;
+    
 }
 .heart {
     position: fixed;
