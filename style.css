@@ -8,10 +8,10 @@ body {
     background-color:#ffe6ee;
 }
 #countdown {
-    font-size: 100px;
+    font-size: 20vw;
     font-weight: bold;
     color: pink;
-    -webkit-text-stroke: 3px #ff4f81;
+    -webkit-text-stroke: 3vw #ff4f81;
     position: relative;
     z-index: 2;
     white-space: nowrap;
