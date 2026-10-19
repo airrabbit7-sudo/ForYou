@@ -2,7 +2,7 @@ const countdown = document.getElementById("countdown");
 const tickSound = new Audio("tick.mp3");
 tickSound.loop = true;
 tickSound.play();
-const targetDate = new Date("2026-10-22T00:00:00");
+const targetDate = new Date("2026-10-21T00:00:00");
 setInterval(() => {
     const now = new Date();
     const difference = targetDate - now;
